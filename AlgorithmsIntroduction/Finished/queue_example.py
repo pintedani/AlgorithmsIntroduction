@@ -7,7 +7,7 @@ class Queue:
         
     def dequeue(self):
         if not len(self.items) == 0:
-            return self.items.pop()
+            return self.items.pop(0)
         else:
             return None
         
